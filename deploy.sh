@@ -9,6 +9,6 @@ echo "Deploying Dealo..."
 # git pull origin main
 
 # Build and start containers
-docker-compose up -d --build
+docker compose up -d --build
 
 echo "Deployment success!"
