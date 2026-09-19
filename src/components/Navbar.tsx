@@ -105,9 +105,6 @@ const Navbar = () => {
               <a href="/dealo-tech" className="hover:text-amber-400 transition">
                 Dealo Tech
               </a>
-              <a href="/partnerships" className="hover:text-amber-400 transition">
-                Partnerships
-              </a>
             </div>
 
             {/* Search and Mobile Menu Button */}
@@ -193,14 +190,6 @@ const Navbar = () => {
                 >
                   Dealo Tech
                 </a>
-                <a
-                  href="/partnerships"
-                  className="hover:text-amber-400 transition py-2"
-                  onClick={handleMobileLinkClick}
-                >
-                  Partnerships
-                </a>
-
                 {/* Mobile Search */}
                 <div className="relative mt-4">
                   <SearchComponent />

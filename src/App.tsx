@@ -7,7 +7,6 @@ import Clearence from './pages/solutions/Clearence';
 import CargoInsurance from './pages/solutions/Cargo';
 import RacingSolutions from './pages/solutions/Racing';
 import Tech from './pages/Tech';
-import Partnerships from './pages/Partnerships';
 import Contact from './pages/Contact';
 
 import './App.css';
@@ -23,7 +22,6 @@ function App() {
                 <Route path='/cargo-insurance-solutions' element={<CargoInsurance />} />
                 <Route path='/racing-solutions' element={<RacingSolutions />} />
                 <Route path='/dealo-tech' element={<Tech />} />
-                <Route path='/partnerships' element={<Partnerships />} />
                 <Route path='/contact' element={<Contact />} />
                 {/* Add a catch-all route for 404 pages */}
                 <Route path="*" element={<div>404 - Page Not Found</div>} />
