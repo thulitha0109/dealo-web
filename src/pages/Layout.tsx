@@ -47,7 +47,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title, description, keywords 
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white text-center py-4 mt-6">
-        <p>&copy; {new Date().getFullYear()} Dealo Group LTD. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Dealo Technologies. All Rights Reserved.</p>
       </footer>
     </div>
   );
